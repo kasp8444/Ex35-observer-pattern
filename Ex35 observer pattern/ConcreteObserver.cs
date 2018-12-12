@@ -23,7 +23,7 @@ namespace Ex35_observer_pattern
             this.subject = subject;
             //this.State = state;
         }
-        public override void Update() //kdng
+        public override void Update() //kdngkndsf
         {
             State = subject.State;
             //Console.WriteLine("Observer {0}'s new state is {1}", _name, _observerState);
